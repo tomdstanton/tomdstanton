@@ -1,3 +1,7 @@
+---
+permalink: /
+title: Home
+---
 ## Hi there, I'm Tom. 👋
 
 - 👨‍💻 I’m currently working on: [Kaptive][kaptive] in the [Wyres Lab][wyres-lab]

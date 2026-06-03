@@ -1,24 +1,9 @@
 {
-  "name": "🦠🧬💻 Bytes and bacteria",
-  "version": "0.0.1",
-  "description": "Yet another microbinfie blog 🫠",
-  "main": "index.js",
+  "name": "bytes-and-bacteria",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tomdstanton/tomdstanton.git"
-  },
-  "keywords": [],
-  "author": {
-    "name": "Tom Stanton",
-    "email": "tomdstanton@gmail.com"
-  },
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/tomdstanton/tomdstanton/issues"
-  },
-  "homepage": "https://tomdstanton.com"
+    "start": "npm --prefix .11ty start",
+    "stage": "npm --prefix .11ty run stage",
+    "build": "npm --prefix .11ty run build"
+  }
 }

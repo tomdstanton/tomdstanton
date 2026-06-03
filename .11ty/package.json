@@ -1,8 +1,13 @@
 {
   "private": true,
-  "name": "subtle.blades.ninja",
-  "version": "0.3.0",
-  "license": "MIT",
+  "name": "bytes-and-bacteria",
+  "version": "0.0.1",
+  "description": "Yet another microbinfie blog 🫠",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomdstanton/tomdstanton.git"
+  },
   "type": "module",
   "workspaces": [
     "do"
@@ -20,13 +25,14 @@
   "=== SITE GLOBALS": "compatible with https://www.11ty.dev/docs/plugins/rss/#virtual-template",
   "site": {
     "favicon": "https://blades.ninja/favicon.ico",
-    "base": "https://subtle.blades.ninja/",
+    "base": "https://tomdstanton.com/",
     "language": "en",
-    "title": "Subtle",
-    "subtitle": "",
-    "generator": "Subtle — The most subtle Eleventy v4 micro-starter for content-first sites",
+    "title": "Bytes and bacteria",
+    "subtitle": "Yet another microbinfie blog 🫠",
+    "generator": "Eleventy",
     "author": {
-      "name": "Anton Staroverov"
+      "name": "Tom Stanton",
+      "email": "tomdstanton@gmail.com"
     },
     "styles": [
       "/blades.css",
