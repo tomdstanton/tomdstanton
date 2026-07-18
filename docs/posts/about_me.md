@@ -1,8 +1,8 @@
 ---
 draft: true
 date: 2026-06-28T23:08:01.653Z
-title: About me
-description: A brief introduction of a chronic under-achiever
+title: The Journey So Far
+description: A brief history of a chronic under-achiever
 author: "Tom Stanton"
 ---
 

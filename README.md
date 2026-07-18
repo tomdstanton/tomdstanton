@@ -1,4 +1,4 @@
-# Hi, I'm Tom. 👋
+# Hi, I'm Tom. 👋 [![Deploy Blog](https://github.com/tomdstanton/tomdstanton/actions/workflows/deploy.yml/badge.svg)](https://github.com/tomdstanton/tomdstanton/actions/workflows/deploy.yml)
 
 ## 💫 About Me:
 - 🔭 I’m currently working on [Kaptive](https://github.com/klebgenomics/Kaptive) in the [Wyres Lab](https://wyreslab.com).
@@ -8,9 +8,6 @@
 - 💬 Ask me about solving biological problems with code.
 - ⚡ Fun fact: I'm fast as fuck boiiiiiii 🏃🏊🚴‍♀️.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f1948ea3-172b-4063-8459-dc07148c7c49/deploy-status)](https://app.netlify.com/projects/tomdstanton/deploys)
-
-
 ## 🌐 Socials:
 [![Bluesky](https://img.shields.io/badge/bluesky-0285FF?logo=bluesky&logoColor=%23FFFFFF)](https://bsky.app/profile/tomstantonmicro)
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/bae_ayanami)
@@ -18,7 +15,7 @@
 [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/tom-stanton)
 [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/tomstantonmicro)
 [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tomdstanton@gmail.com)
-[![Google Scholar Citations](https://shields.io)](https://scholar.google.com/citations?user=OME2f6kAAAAJ)
+[![Google Scholar](https://shields.io)](https://scholar.google.com/citations?user=OME2f6kAAAAJ)
 
 # 💻 Tech Stack:
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)

@@ -19,13 +19,13 @@ nav = [
         { "You like 'Huey Lewis and the News?" = "posts/soas.md" }
     ]}
 ]
+watch = ["zensical.toml", "README.md", "docs"]
 
 [[project.extra.social]]
 icon = "fontawesome/brands/github"
 link = "https://github.com/tomdstanton/tomdstanton"
 
 [project.theme]
-# name = "catppuccin"
 icon.repo = "fontawesome/brands/github"
 icon.logo = "lucide/dna"
 # font.text = "Noto Sans"
@@ -50,6 +50,25 @@ features = [
     "toc.follow",
 ]
 
+# System default (Auto) state
+[theme.palette.toggle]
+icon = "lucide/sun-moon"
+hint = "Switch to dark mode"
+name = "auto"
+
+# Light mode state
+[theme.palette.toggle.light]
+icon = "lucide/sun"
+hint = "Switch to light mode"
+name = "light"
+
+# Dark mode state
+[theme.palette.toggle.dark]
+icon = "lucide/moon"
+hint = "Switch to system preference"
+name = "dark"
+
+
 [project.markdown_extensions]
 admonition = {}
 "pymdownx.details" = {}
@@ -60,10 +79,11 @@ admonition = {}
 toc = { permalink = true, title = "On this page" }
 footnotes = {}
 
-[project.markdown_extensions."pymdownx.superfences"]
+[project.markdown_extensions.pymdownx.superfences]
 custom_fences = [
   { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
 ]
+[project.markdown_extensions.zensical.extensions.glightbox]
 
 [project.plugins]
 search = {}
