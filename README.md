@@ -8,6 +8,8 @@
 - 💬 Ask me about solving biological problems with code.
 - ⚡ Fun fact: I'm fast as fuck boiiiiiii 🏃🏊🚴‍♀️.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f1948ea3-172b-4063-8459-dc07148c7c49/deploy-status)](https://app.netlify.com/projects/tomdstanton/deploys)
+
 
 ## 🌐 Socials:
 [![Bluesky](https://img.shields.io/badge/bluesky-0285FF?logo=bluesky&logoColor=%23FFFFFF)](https://bsky.app/profile/tomstantonmicro)
