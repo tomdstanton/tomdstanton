@@ -1,7 +1,7 @@
 # Hi, I'm Tom. 👋
 
 ## 💫 About Me:
-- 🔭 I’m currently working on [Kaptive][https://github.com/klebgenomics/Kaptive] in the [Wyres Lab][https://wyreslab.com].
+- 🔭 I’m currently working on [Kaptive](https://github.com/klebgenomics/Kaptive) in the [Wyres Lab](https://wyreslab.com).
 - 👯 I’m looking to collaborate on in silico serotyping databases.
 - 🤝 I’m looking for help with bacterial glycan structure curation.
 - 🌱 I’m currently learning polars 🐻‍❄️.
