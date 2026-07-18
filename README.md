@@ -1,18 +1,12 @@
-<!-- 
-permalink: /
-title: "Home"
-author: "Tom Stanton"
--->
-
-# Hi there, I'm Tom. 👋
+# Hi, I'm Tom. 👋
 
 ## 💫 About Me:
- 🔭 I’m currently working on [Kaptive][https://github.com/klebgenomics/Kaptive] in the [Wyres Lab][https://wyreslab.com]
- 👯 I’m looking to collaborate on in silico serotyping databases.
- 🤝 I’m looking for help with bacterial glycan structure curation
- 🌱 I’m currently learning polars 🐻‍❄️
- 💬 Ask me about solving biological problems with code.
- ⚡ Fun fact: I'm fast as fuck boiiiiiii 🏃🏊🚴‍♀️
+- 🔭 I’m currently working on [Kaptive][https://github.com/klebgenomics/Kaptive] in the [Wyres Lab][https://wyreslab.com].
+- 👯 I’m looking to collaborate on in silico serotyping databases.
+- 🤝 I’m looking for help with bacterial glycan structure curation.
+- 🌱 I’m currently learning polars 🐻‍❄️.
+- 💬 Ask me about solving biological problems with code.
+- ⚡ Fun fact: I'm fast as fuck boiiiiiii 🏃🏊🚴‍♀️.
 
 
 ## 🌐 Socials:
@@ -46,14 +40,3 @@ author: "Tom Stanton"
 ![](https://github-readme-stats.shion.dev/api?username=tomdstanton&theme=catppuccin_latte&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://streak-stats.demolab.com/?user=tomdstanton&theme=catppuccin_latte&hide_border=false)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=tomdstanton&theme=catppuccin_latte&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=tomdstanton&theme=catppuccin_latte&no-frame=false&no-bg=false&margin-w=4)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=tomdstanton&limit=5&theme=catppuccin_latte&combine_all_yearly_contributions=true)
-
----
-[![](https://komarev.com/ghpvc/?username=tomdstanton&icon=0&color=3)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
