@@ -1,9 +1,0 @@
-{
-  "name": "bytes-and-bacteria",
-  "private": true,
-  "scripts": {
-    "start": "npm --prefix .11ty start",
-    "stage": "npm --prefix .11ty run stage",
-    "build": "npm --prefix .11ty run build"
-  }
-}
