@@ -1,14 +1,13 @@
 ---
 draft: true
 date: 2026-06-28T23:08:01.653Z
-title: The Journey So Far
+title: How I got to where I am now 🔬
 description: A brief history of a chronic under-achiever
 author: "Tom Stanton"
+comments: true
 ---
 
-## How I got to where I am now
-
-### 1993
+## 1993
 
 I'm Tom. I was born in Margate, England and grew up (mostly) in the sleepy coastal town of Birchington, England.
 I was interested in science from an early age but didn't have a formal scientific education in primary school.
@@ -17,7 +16,7 @@ now known as Chatham & Clarendon Grammar School, in Ramsgate, England.
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d40558.40591763061!2d1.3426332392781395!3d51.35981908161926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sau!4v1784338044061!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
-### 2005
+## 2005
 
 Considering the area, I was lucky enough to have some really excellent science teachers, especially Mr. Chris Bowman who was 
 the longest serving member of staff at the school, teaching science from 1993-2024! I was convinced to study Biology, Chemisty, 
@@ -30,7 +29,7 @@ come and speak to us about how they were developing tools to reduce
 antimicrobial resistance to tuberculosis (TB). This short talk connected all the dots for me - from that point I was 
 pretty convinced I wanted to do the same thing.
 
-### 2012
+## 2012
 
 After failing and dropping computer science I realised Oxford was no longer an option, so decided to apply for a place
 at the University of Surrey to study a BSc. in Biochemistry. After basically failing everything else I was awarded a
@@ -48,12 +47,12 @@ own idea. After we knew that efflux pumps were responsible for reduced susceptib
 _A. baumannii_ under tigecycline pressure in the presence of an efflux inhibitor (I forget which one at the time) to find
 any other intrinisc mechanisms contributing to resistance.
 
-So anyway Mike left the university 🫠, and I started a project under Dr. Volker Behrends, analysisng NMR spectra of 
+So anyway Mike left the university (cheers mate), and I started a project under Dr. Volker Behrends, analysisng NMR spectra of 
 _P. aeruginosa_ metabolites from the sputum of cystic fibrosis patients. Volker had developed a Matlab program which allowed peaks in NMR
 spectra to be mapped to metabolites produced by _P. aeruginosa_ during the infection - so the whole project was technically 
 my first foray in microbial bioinformatics.
 
-### 2015
+## 2015
 
 After graduating with yet another measly grade, I briefly worked as microbiologist at Leatherhead Food Research, whilst I applied for
 for jobs at UKHSA. Six months later, I got a call from Shazad Mushtaq who offered
@@ -72,13 +71,13 @@ It as a collaboration between the University of Edinburgh, UKHSA and Shionogi to
 antibiotic, cefederocol, in priority Gram Negative pathogens - literally the dream. Despite my abysmal academic record, I 
 took my chances and was miraculously next thing I knew I was on a train to Edinbugh, Scotland.
 
-### 2018
+## 2018
 
 This was not a descision I took lightly - my life changed forever after I did my PhD, in good ways and bad ways. I will
 eventually do a blog post about my PhD experience. But for any prospective PhD students reading this, I would highly
 reccomend not doing a PhD for the CV clout, do it because you are obsessed with the topic - and trust me, we can tell.
 
-### 2020
+## 2020
 
 COVID-19 happened, and I was kicked out of the lab during a 3-year wet-lab based PhD project.
 Luckily, I had shown an early interest in bioinformatics, and was allowed to work on some computational
@@ -86,12 +85,12 @@ side-projects which, because of lockdown, became a whole thesis chapter! But I r
 Python, Bash and R, I wasn't condtrained to the physical limitations of the wet-lab... I could not only
 as ask any research question I wanted to, but I could answer it **by myself**! for **free**!
 
-### 2021
+## 2021
 
 A. Prof Kelly Wyres advertised a postdoc postion on the platform formally known as Twitter, looking at genomic
 sero-epidemiology of K. pneumoniae - I slid in the DMs, and the rest is history!
 
-## References
+## References 📚
 
 [^1]: [Hornsey, M., Wareham, D.W. Effects of In vivo Emergent Tigecycline 
     Resistance on the Pathogenic Potential of Acinetobacter baumannii. *Sci Rep* 8, 

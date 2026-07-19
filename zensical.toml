@@ -20,7 +20,11 @@ nav = [
     ]}
 ]
 watch = ["zensical.toml", "README.md", "docs"]
-
+plugins = [
+  "search",
+  "include-markdown",
+  "offline"
+]
 [[project.extra.social]]
 icon = "fontawesome/brands/github"
 link = "https://github.com/tomdstanton/tomdstanton"
@@ -68,7 +72,6 @@ icon = "lucide/moon"
 hint = "Switch to system preference"
 name = "dark"
 
-
 [project.markdown_extensions]
 admonition = {}
 "pymdownx.details" = {}
@@ -85,5 +88,3 @@ custom_fences = [
 ]
 [project.markdown_extensions.zensical.extensions.glightbox]
 
-[project.plugins]
-search = {}

@@ -1,10 +1,17 @@
-# You like 'Huey Lewis and the News'?
+---
+draft: true
+date: 2026-06-28T23:08:01.653Z
+title: You like 'Huey Lewis and the News'?
+description: Data-oriented-design in bioinformatics
+author: "Tom Stanton"
+comments: true
+---
+
+It's hip to be square - 
 
 ![](https://miro.medium.com/v2/resize:fit:1000/format:webp/1*Qa7su6VMnUUu_fCrKg4vtA.gif)
 
-Operations on squares, not objects.
-
-
+## Operations on squares, not objects.
 
 Numpy is [**fantastic**](https://chelseatroy.com/2018/11/07/code-mechanic-numpy-vectorization/)
 for vectorisation - and consequently so is Pandas. Also, so are some of my favourite `tidyverse`
