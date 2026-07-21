@@ -36,6 +36,7 @@ icon.logo = "lucide/dna"
 font.code = "JetBrains Mono"
 features = [
     "announce.dismiss",
+    "content.action.edit",
     "content.code.copy",
     "content.code.select",
     "content.footnote.tooltips",
@@ -49,9 +50,10 @@ features = [
     "navigation.instant",
     "navigation.instant.progress",
     "search.suggest",
-    "search.highlight" ,
+    "search.highlight",
     "search.share",
     "toc.follow",
+    "toc.integrate",
 ]
 
 # System default (Auto) state
