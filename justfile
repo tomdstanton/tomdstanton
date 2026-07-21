@@ -17,17 +17,14 @@ install: clean
 
 # Builds the static site
 build: install
-    cp README.md docs/index.md
     uv run zensical build
 
 # Build and serve the documentation locally
 serve: install
-    cp README.md docs/index.md
     uv run zensical serve
 
 # Clean build artifacts
 clean:
-    rm -rf .venv
     rm -rf site
     rm -f docs/index.md
     find . -type d -name "__pycache__" -exec rm -rf {} +
