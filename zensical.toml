@@ -76,17 +76,19 @@ name = "dark"
 
 [project.markdown_extensions]
 admonition = {}
+attr_list = {}
+footnotes = {}
+md_in_html = {}
+toc = { permalink = true, title = "On this page" }
+
+"pymdownx.arithmatex" = { generic = true }
 "pymdownx.details" = {}
-"pymdownx.tabbed" = { alternate_style = true }
+"pymdownx.emoji" = { emoji_index = "zensical.extensions.emoji.twemoji", emoji_generator = "zensical.extensions.emoji.to_svg" }
 "pymdownx.highlight" = { anchor_linenums = true, use_pygments = true }
 "pymdownx.inlinehilite" = {}
-"pymdownx.arithmatex" = { generic = true }
-toc = { permalink = true, title = "On this page" }
-footnotes = {}
+"pymdownx.snippets" = { base_path = ["."] }
+"pymdownx.superfences" = { custom_fences = [ { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" } ] }
+"pymdownx.tabbed" = { alternate_style = true }
 
-[project.markdown_extensions.pymdownx.superfences]
-custom_fences = [
-  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
-]
-[project.markdown_extensions.zensical.extensions.glightbox]
+"zensical.extensions.glightbox" = {}
 
