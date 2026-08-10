@@ -5,38 +5,42 @@ site_url = "https://tomdstanton.github.io/tomdstanton/"
 repo_url = "https://github.com/tomdstanton/tomdstanton"
 repo_name = "tomdstanton/tomdstanton"
 site_author = "Tom Stanton"
+edit_uri = "edit/master/docs/"
 docs_dir = "docs"
 site_dir = "site"
-language = "en"
 copyright = """
 Copyright &copy; 2026 <a href="https://tomdstanton.com" target="_blank">Tom Stanton</a>
 """
+extra_css = ["stylesheets/extra.css"]
 nav = [
     { "Home" = "index.md" },
-    # { "Tags" = "tags.md" },
     { "Blog Posts" = [
-        { "About me" = "posts/about_me.md" },
+        { "The Journey So Far" = "posts/journey.md" },
         { "You like 'Huey Lewis and the News?" = "posts/soas.md" }
-    ]}
+    ]},
+    { "Bibliography" = "bib.md" },
 ]
-watch = ["zensical.toml", "README.md", "docs"]
 plugins = [
-  "search",
-  "include-markdown",
-  "offline"
+    "search",
+    { reading-time = { words_per_minute = 200 } },
+    "include-markdown",
+    "offline",
 ]
-[[project.extra.social]]
-icon = "fontawesome/brands/github"
-link = "https://github.com/tomdstanton/tomdstanton"
+extra_javascript = [
+    "javascripts/mathjax.js",
+    "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js",
+]
 
 [project.theme]
-icon.repo = "fontawesome/brands/github"
-icon.logo = "lucide/dna"
-# font.text = "Noto Sans"
-font.code = "JetBrains Mono"
+name = "material"
+custom_dir = "docs/overrides"
+logo = "assets/logo.png"
+favicon = "assets/logo.png"
+language = "en"
 features = [
     "announce.dismiss",
     "content.action.edit",
+    "content.code.annotate",
     "content.code.copy",
     "content.code.select",
     "content.footnote.tooltips",
@@ -44,35 +48,56 @@ features = [
     "navigation.top",
     "navigation.footer",
     "navigation.tabs",
+    "navigation.tabs.sticky",
     "navigation.tracking",
-    "navigation.sections",
-    "navigation.expand",
+    # "navigation.sections",
+    # "navigation.expand",
     "navigation.instant",
     "navigation.instant.progress",
+    "navigation.path",
     "search.suggest",
     "search.highlight",
     "search.share",
     "toc.follow",
-    "toc.integrate",
+    # "toc.integrate",
 ]
 
-# System default (Auto) state
-[theme.palette.toggle]
-icon = "lucide/sun-moon"
-hint = "Switch to dark mode"
-name = "auto"
+[project.theme.font]
+text = "Manrope"
+code = "IBM Plex Mono"
 
-# Light mode state
-[theme.palette.toggle.light]
-icon = "lucide/sun"
-hint = "Switch to light mode"
-name = "light"
+[project.theme.icon]
+repo = "fontawesome/brands/github"
+# logo = "lucide/dna"
 
-# Dark mode state
-[theme.palette.toggle.dark]
-icon = "lucide/moon"
-hint = "Switch to system preference"
-name = "dark"
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+primary = "custom"
+accent = "custom"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Use light mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+primary = "custom"
+accent = "custom"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Use dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+primary = "custom"
+accent = "custom"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Use system preference"
+
+[project.extra]
+social = [
+    { icon = "lucide/mail", link = "mailto:tomdstanton@gmail.com" },
+]
+generator = false
 
 [project.markdown_extensions]
 admonition = {}
@@ -80,15 +105,12 @@ attr_list = {}
 footnotes = {}
 md_in_html = {}
 toc = { permalink = true, title = "On this page" }
-
 "pymdownx.arithmatex" = { generic = true }
 "pymdownx.details" = {}
 "pymdownx.emoji" = { emoji_index = "zensical.extensions.emoji.twemoji", emoji_generator = "zensical.extensions.emoji.to_svg" }
-"pymdownx.highlight" = { anchor_linenums = true, use_pygments = true }
+"pymdownx.highlight" = { anchor_linenums = true, use_pygments = true, linenums = true, auto_title = true }
 "pymdownx.inlinehilite" = {}
 "pymdownx.snippets" = { base_path = ["."] }
 "pymdownx.superfences" = { custom_fences = [ { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" } ] }
 "pymdownx.tabbed" = { alternate_style = true }
-
 "zensical.extensions.glightbox" = {}
-

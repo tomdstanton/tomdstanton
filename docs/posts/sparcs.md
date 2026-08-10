@@ -1,3 +1,12 @@
+---
+draft: true
+date: 2026-06-28T23:08:01.653Z
+title: You like 'Huey Lewis and the News'?
+description: Data-oriented-design in bioinformatics
+author: "Tom Stanton"
+comments: true
+---
+
 # So, are these two genes the same?
 
 ... my PhD supervisor used to ask me, as I stared at the BlastP results page trying to figure out how to say "I have absolutley no idea". 

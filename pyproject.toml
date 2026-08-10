@@ -1,9 +1,0 @@
-[project]
-name = "tomdstanton"
-version = "0.1.0"
-description = "Yet another microbinfie blog"
-readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "zensical>=0.0.51",
-]
