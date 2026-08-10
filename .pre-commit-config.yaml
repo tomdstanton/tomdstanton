@@ -1,0 +1,9 @@
+repos:
+- repo: local
+  hooks:
+  - id: zenzic-check
+    name: Zenzic Audit
+    entry: uvx zenzic check all
+    language: system
+    pass_filenames: false
+    files: \.(md|toml)$
